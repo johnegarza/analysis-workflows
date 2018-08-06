@@ -9,6 +9,8 @@ requirements:
     - class: ResourceRequirement
       coresMin: 8
       ramMin: 20000
+    - class: DockerRequirement
+      dockerPull: "mgibio/alignment_helper-cwl:1.0.0"
 stdout: "refAlign.bam"
 arguments:
     - position: 4

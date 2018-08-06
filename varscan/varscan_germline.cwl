@@ -7,6 +7,8 @@ baseCommand: "/usr/bin/varscan_germline_helper.sh"
 requirements:
     - class: ResourceRequirement
       ramMin: 12000
+    - class: DockerRequirement
+      dockerPull: "mgibio/varscan_helper-cwl:1.0.0"
 arguments:
     - position: 9
       valueFrom: "$(runtime.outdir)/output.vcf"

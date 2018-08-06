@@ -15,6 +15,8 @@ arguments:
 requirements:
     - class: ResourceRequirement
       ramMin: 18000
+    - class: DockerRequirement
+      dockerPull: "mgibio/gatk-cwl:3.6.0"
 inputs:
     reference:
         type: string

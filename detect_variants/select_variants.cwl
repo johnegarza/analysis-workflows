@@ -8,6 +8,8 @@ requirements:
     - class: ResourceRequirement
       ramMin: 6000
       tmpdirMin: 25000
+    - class: DockerRequirement
+      dockerPull: "mgibio/gatk-cwl:3.6.0"
 arguments:
     ["-o", { valueFrom: $(runtime.outdir)/$(inputs.output_vcf_basename).vcf.gz }]
 inputs:

@@ -1,0 +1,11 @@
+---
+bams:
+- class: File
+  path: exome_workflow/2895499223.bam
+- class: File
+  path: exome_workflow/2895499237.bam
+
+/Users/jgarza/Desktop/MGI/cancer-genomics-workflow
+./cram_to_bam
+./example_data/rnaseq/gerald_H3MYFBBXX_4_GCCAAT_1k.bam
+./example_data/rnaseq/gerald_H3MYFBBXX_5_GCCAAT_1k.bam

@@ -10,6 +10,8 @@ arguments: [
 ]
 requirements:
     - class: ShellCommandRequirement
+    - class: DockerRequirement
+      dockerPull: "mgibio/samtools-cwl:1.0.0"
 inputs:
     vcf:
         type: File

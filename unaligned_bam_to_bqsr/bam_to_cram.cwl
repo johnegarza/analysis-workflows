@@ -5,6 +5,9 @@ class: CommandLineTool
 label: 'BAM to CRAM conversion'
 baseCommand: ["/opt/samtools/bin/samtools", "view", "-C"]
 stdout: "final.cram"
+requirements:
+    - class: DockerRequirement
+      dockerPull: "mgibio/samtools-cwl:1.0.0"
 inputs:
     reference:
         type: string

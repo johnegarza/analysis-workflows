@@ -9,6 +9,8 @@ requirements:
     - class: ResourceRequirement
       coresMin: 8
       ramMin: 40000
+    - class: DockerRequirement
+      dockerPull: "mgibio/mark_duplicates-cwl:1.0.0"
 arguments:
     - position: 2
       valueFrom: $(runtime.cores)

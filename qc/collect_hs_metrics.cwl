@@ -10,6 +10,8 @@ requirements:
     - class: ResourceRequirement
       ramMin: 16000
     - class: InlineJavascriptRequirement
+    - class: DockerRequirement
+      dockerPull: "mgibio/picard-cwl:2.18.1"
 inputs:
     cram:
         type: File

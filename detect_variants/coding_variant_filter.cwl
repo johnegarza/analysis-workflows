@@ -12,6 +12,9 @@ arguments:
     "-o", { valueFrom: $(runtime.outdir)/annotated.coding_variant_filtered.vcf },
     "--ontology",
     "--filter", "Consequence is coding_sequence_variant"]
+requirements:
+    - class: DockerRequirement
+      dockerPull: "mgibio/vep_helper-cwl:1.0.0"
 inputs:
     vcf:
         type: File
