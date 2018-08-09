@@ -5,7 +5,7 @@ class: CommandLineTool
 label: 'merge BAMs'
 requirements:
     - class: DockerRequirement
-      dockerPull: "mgibio/samtools-cwl:v1.0.0"
+      dockerPull: "mgibio/samtools-cwl:1.0.0"
 baseCommand: ["/opt/samtools/bin/samtools", "merge"]
 arguments: ["AlignedMerged.bam"]
 inputs:

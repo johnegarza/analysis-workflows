@@ -9,7 +9,7 @@ requirements:
       ramMin: 6000
       tmpdirMin: 25000
     - class: DockerRequirement
-      dockerPull: "mgiobio/fpfilter"
+      dockerPull: "mgiobio/fpfilter-cwl:v1"
 arguments:
     ["--bam-readcount", "/usr/bin/bam-readcount",
     "--samtools", "/opt/samtools/bin/samtools",

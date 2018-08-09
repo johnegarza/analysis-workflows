@@ -1,6 +1,6 @@
 ---
 bams:
 - class: File
-  path: /Users/jgarza/Desktop/MGI/cancer-genomics-workflow/example_data/rnaseq/gerald_H3MYFBBXX_4_GCCAAT_1k.bam
+  path: /Users/jgarza/Desktop/MGI/cancer-genomics-workflow/example_data/rand1.bam
 - class: File
-  path: /Users/jgarza/Desktop/MGI/cancer-genomics-workflow/example_data/rnaseq/gerald_H3MYFBBXX_5_GCCAAT_1k.bam
+  path: /Users/jgarza/Desktop/MGI/cancer-genomics-workflow/example_data/rand2.bam
