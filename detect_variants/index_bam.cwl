@@ -11,7 +11,7 @@ arguments: [
 requirements:
     - class: ShellCommandRequirement
     - class: DockerRequirement
-      dockerPull: "mgiobio/samtools-cwl:1.0.0"
+      dockerPull: "mgibio/samtools-cwl:1.0.0"
 inputs:
     bam:
         type: File
