@@ -1,6 +1,7 @@
+language: java
 install:
-    - apt-get update
-    - apt-get install default-jre python python-pip
+    - sudo apt-get update
+    - sudo apt-get install python python-pip
     - pip install --upgrade pip
     - pip install 'setuptools>=18.5'
     - pip install cwltool
