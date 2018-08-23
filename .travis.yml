@@ -3,9 +3,10 @@ sudo: required
 services: 
     - docker
 
+#explicitly pull first so that if there's a problem, we get a build error instead of failure
 install: docker pull johnegarza/travis-cromwell
 
 #travis is currently inside the repo to be tested; this should be mounted
 #inside the docker container for testing, but the path is determined at runtime,
 #so use pwd inside the command to get the full path
-script: docker run -v $(pwd) travis-cromwell
+script: docker run -v $(pwd) johnegarza/travis-cromwell
