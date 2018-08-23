@@ -1,3 +1,9 @@
-language: java
-install: wget https://github.com/broadinstitute/cromwell/releases/download/34/cromwell-34.jar
+install:
+    - apt-get update
+    - apt-get install default-jre python python-pip
+    - pip install --upgrade pip
+    - pip install 'setuptools>=18.5'
+    - pip install cwltool
+    - pip install 'ruamel.yaml==0.14.2' 
+    - wget https://github.com/broadinstitute/cromwell/releases/download/34/cromwell-34.jar
 script: java -jar cromwell-34.jar run -t cwl -i ./example_data/exome_workflow.yaml ./exome_workflow.cwl
