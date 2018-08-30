@@ -6,7 +6,9 @@ label: "exome alignment and variant detection"
 requirements:
     - class: SubworkflowFeatureRequirement
 inputs:
-    reference: string
+    reference:
+        type: File
+        secondaryFiles: [.fai, .bwt, .sa, .ann, .amb, .pac, ^.dict]
     bams:
         type: File[]
     readgroups:

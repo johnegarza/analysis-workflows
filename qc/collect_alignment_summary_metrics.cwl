@@ -18,7 +18,7 @@ inputs:
             prefix: "INPUT="
         secondaryFiles: [^.crai]
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "REFERENCE_SEQUENCE="
     metric_accumulation_level:

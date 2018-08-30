@@ -25,7 +25,7 @@ inputs:
         inputBinding:
             position: -3
     reference_fasta:
-        type: string
+        type: File
         inputBinding:
             position: -2
     bam:

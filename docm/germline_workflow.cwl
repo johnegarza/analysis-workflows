@@ -7,7 +7,7 @@ requirements:
     - class: SubworkflowFeatureRequirement
 inputs:
     reference:
-        type: string
+        type: File
     cram:
         type: File
         secondaryFiles: [^.crai]

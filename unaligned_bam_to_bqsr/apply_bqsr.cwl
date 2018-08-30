@@ -19,7 +19,7 @@ requirements:
       dockerPull: "mgibio/gatk-cwl:3.6.0"
 inputs:
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "-R"
             position: 1

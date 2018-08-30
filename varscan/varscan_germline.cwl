@@ -19,7 +19,7 @@ inputs:
             position: 1
         secondaryFiles: [^.crai]
     reference:
-        type: string
+        type: File
         inputBinding:
             position: 2
     strand_filter:

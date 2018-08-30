@@ -19,7 +19,7 @@ inputs:
             prefix: "I="
         secondaryFiles: [^.crai]
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "REFERENCE_SEQUENCE="
     metric_accumulation_level:

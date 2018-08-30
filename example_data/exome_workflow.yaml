@@ -41,7 +41,9 @@ picard_metric_accumulation_level: ALL_READS
 readgroups:
 - "@RG\tID:2895499223\tPU:H7HY2CCXX.3.ATCACGGT\tSM:H_NJ-HCC1395-HCC1395\tLB:H_NJ-HCC1395-HCC1395-lg24-lib1\tPL:Illumina\tCN:WUGSC"
 - "@RG\tID:2895499237\tPU:H7HY2CCXX.4.ATCACGGT\tSM:H_NJ-HCC1395-HCC1395\tLB:H_NJ-HCC1395-HCC1395-lg24-lib1\tPL:Illumina\tCN:WUGSC"
-reference: /gscmnt/gc2764/cad/jwalker/toil_test/cancer-genomics-workflow/example_data/exome_workflow/chr17_test.fa
+reference: 
+  class: File
+  path: exome_workflow/chr17_test.fa
 sample_name: H_NJ-HCC1395-HCC1395
 synonyms_file:
   class: File

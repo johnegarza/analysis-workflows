@@ -10,7 +10,7 @@ inputs:
         type: File
         secondaryFiles: [^.crai]
     reference:
-        type: string
+        type: File
     bait_intervals:
         type: File
     target_intervals:

@@ -8,7 +8,7 @@ inputs:
         type: File
         secondaryFiles: [^.crai]
     reference:
-        type: string
+        type: File
 outputs:
     bam:
         type: File

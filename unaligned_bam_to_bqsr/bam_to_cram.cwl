@@ -10,7 +10,7 @@ requirements:
       dockerPull: "mgibio/samtools-cwl:1.0.0"
 inputs:
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "-T"
             position: 1

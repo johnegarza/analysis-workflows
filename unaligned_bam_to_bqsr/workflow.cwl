@@ -16,7 +16,8 @@ inputs:
     bqsr_intervals:
         type: string[]?
     reference:
-        type: string
+        type: File
+        secondaryFiles: [.fai, .bwt, .sa, .ann, .amb, .pac, ^.dict]
     dbsnp:
         type: File
         secondaryFiles: [.tbi]

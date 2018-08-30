@@ -11,7 +11,8 @@ inputs:
     bam:
         type: File
     reference:
-        type: string
+        type: File
+        secondaryFiles: [.fai, .bwt, .sa, .ann, .amb, .pac]
     readgroup:
         type: string
 outputs:

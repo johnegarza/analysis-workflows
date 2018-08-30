@@ -9,7 +9,7 @@ requirements:
     - class: StepInputExpressionRequirement
 inputs:
     reference:
-        type: string
+        type: File
     cram:
         type: File
         secondaryFiles: [^.crai]

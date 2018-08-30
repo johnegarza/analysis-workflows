@@ -14,7 +14,7 @@ arguments:
     ["-o", { valueFrom: $(runtime.outdir)/variants.tsv }]
 inputs:
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "-R"
             position: 1

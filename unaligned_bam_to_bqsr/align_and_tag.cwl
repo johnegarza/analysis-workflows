@@ -25,7 +25,7 @@ inputs:
         inputBinding:
             position: 2
     reference:
-        type: string
+        type: File
         inputBinding:
             position: 3
 outputs:

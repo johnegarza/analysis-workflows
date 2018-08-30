@@ -13,7 +13,7 @@ arguments:
         ["-o", { valueFrom: $(runtime.outdir)/output.bam }]
 inputs:
     reference:
-        type: string
+        type: File
         inputBinding:
             prefix: "-T"
             position: 1
