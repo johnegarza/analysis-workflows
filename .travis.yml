@@ -12,4 +12,4 @@ install:
 #travis is currently inside the repo to be tested; this should be mounted
 #inside the docker container for testing, but the path is determined at runtime,
 #so use pwd inside the command to get the full path
-script: docker run -v $PWD:/cancer-genomics-workflow -v /var/run/docker.sock:/var/run/docker.sock -v travis-data:/cancer-genomics-workflow -i johnegarza/travis-cromwell
+script: docker run -v /var/run/docker.sock:/var/run/docker.sock -v travis-data:/cancer-genomics-workflow -i johnegarza/travis-cromwell
