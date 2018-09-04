@@ -1,0 +1,21 @@
+species	homo_sapiens
+assembly	GRCh38
+sift	b
+polyphen	b
+source_polyphen	2.2.2
+source_sift	sift5.2.2
+source_genebuild	2014-07
+source_gencode	GENCODE 28
+source_assembly	GRCh38.p12
+variation_cols	variation_name,failed,somatic,start,end,allele_string,strand,minor_allele,minor_allele_freq,clin_sig,phenotype_or_disease,pubmed,AFR,AMR,EAS,EUR,SAS,AA,EA,gnomAD,gnomAD_AFR,gnomAD_AMR,gnomAD_ASJ,gnomAD_EAS,gnomAD_FIN,gnomAD_NFE,gnomAD_OTH,gnomAD_SAS
+source_COSMIC	85
+source_HGMD-PUBLIC	20174
+source_ESP	20141103
+source_ClinVar	201805
+source_dbSNP	150
+source_1000genomes	phase3
+source_ESP	V2-SSA137
+source_gnomAD	170228
+regulatory	1
+cell_types	A549,Aorta,B_cells_(PB)_Roadmap,CD14+CD16-_monocyte_(CB),CD14+CD16-_monocyte_(VB),CD4+_ab_T_cell_(VB),CD8+_ab_T_cell_(CB),CM_CD4+_ab_T_cell_(VB),DND-41,EPC_(VB),Fetal_Adrenal_Gland,Fetal_Intestine_Large,Fetal_Intestine_Small,Fetal_Muscle_Leg,Fetal_Muscle_Trunk,Fetal_Stomach,Fetal_Thymus,GM12878,Gastric,H1-mesenchymal,H1-neuronal_progenitor,H1-trophoblast,H1ESC,H9,HMEC,HSMM,HSMMtube,HUVEC,HUVEC_prol_(CB),HeLa-S3,HepG2,IMR90,K562,Left_Ventricle,Lung,M0_macrophage_(CB),M0_macrophage_(VB),M1_macrophage_(CB),M1_macrophage_(VB),M2_macrophage_(CB),M2_macrophage_(VB),MSC_(VB),Monocytes-CD14+,Monocytes-CD14+_(PB)_Roadmap,NH-A,NHDF-AD,NHEK,NHLF,Natural_Killer_cells_(PB),Osteobl,Ovary,Pancreas,Placenta,Psoas_Muscle,Right_Atrium,Small_Intestine,Spleen,T_cells_(PB)_Roadmap,Thymus,eosinophil_(VB),erythroblast_(CB),iPS-20b,iPS_DF_19.11,iPS_DF_6.9,naive_B_cell_(VB),neutrophil_(CB),neutrophil_(VB),neutrophil_myelocyte_(BM)
+source_regbuild	16
