@@ -7,9 +7,9 @@ services:
 install:
     - docker pull johnegarza/travis-cromwell
     - docker build -t volume_populator .
-    - docker run -v travis-data:/repo_data volume_populator
+    - docker run -v repo-data:/repo_data volume_populator
 
 #travis is currently inside the repo to be tested; this should be mounted
 #inside the docker container for testing, but the path is determined at runtime,
 #so use pwd inside the command to get the full path
-script: docker run -v /var/run/docker.sock:/var/run/docker.sock -v travis-data:/cancer-genomics-workflow -i johnegarza/travis-cromwell
+script: docker run -v /var/run/docker.sock:/var/run/docker.sock -v repo-data:/cancer-genomics-workflow -v travis-data:/cromwell-executions -i johnegarza/travis-cromwell

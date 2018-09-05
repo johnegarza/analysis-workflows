@@ -56,6 +56,8 @@ varscan_min_reads: 5
 varscan_min_var_freq: 0.02
 varscan_p_value: 0.99
 varscan_strand_filter: 0
-vep_cache_dir: /cancer-genomics-workflow/example_data/exome_workflow
+vep_cache_dir:
+  class: Directory
+  path: exome_workflow
 bqsr_intervals:
 - chr17
