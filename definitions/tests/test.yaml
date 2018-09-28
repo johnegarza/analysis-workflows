@@ -57,3 +57,4 @@ varscan_min_var_freq: 0.02
 varscan_p_value: 0.99
 varscan_strand_filter: 0
 vep_cache_dir: /gscmnt/gc2764/cad/ssiebert/toil_test/inputs/VEP_cache
+example_data_dir: /gscmnt/gc2764/cad/jgarza/master_test/output_diff_tests/same_test/example_data

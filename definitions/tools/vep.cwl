@@ -20,7 +20,8 @@ arguments:
     "--term", "SO",
     "--flag_pick",
     "--transcript_version",
-    "-o", { valueFrom: $(runtime.outdir)/annotated.vcf }]
+    "-o", { valueFrom: $(runtime.outdir)/annotated.vcf },
+    "--cache_version", "90"]
 inputs:
     vcf:
         type: File
